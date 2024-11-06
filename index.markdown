@@ -11,16 +11,16 @@ layout: home
 
 ---
 
-## [Cosmic Cargo](https://www.example.com)
+## [Cosmic Cargo](/projects/Cosmic-Cargo/) (WIP)
 
 ---
 
-## [Battle Bond](https://www.example.com)
+## [Battle Bond](/projects/Battle-Bond/)
 
 ---
 
-## [LEFT 4 B4IT](https://www.example.com)
+## [LEFT 4 B4IT](/projects/LEFT-4-B4IT/)
 
 ---
 
-## [Zombie Clicker](https://www.example.com)
+## [Zombie Clicker](/projects/Zombie-Clicker/)

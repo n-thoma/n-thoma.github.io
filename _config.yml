@@ -4,7 +4,7 @@ description: >- # ignore newlines until "baseurl:"
   I am a student at DigiPen Institute of Technology specializing in video game development and computer science.
   Through hands-on projects, I'm honing my skills to create immersive gaming experiences and innovative software solutions.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://n-thoma.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  n-thoma
 youtube_username: "@N_Thoma"
 linkedin_username: NThoma
