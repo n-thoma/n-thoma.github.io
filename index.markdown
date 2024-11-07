@@ -2,24 +2,25 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: page
 ---
 
+# My Projects
 
-## [Moonlight Meadows](/projects/Moonlight-Meadows/) (WIP)
-
----
-
-## [Cosmic Cargo](/projects/Cosmic-Cargo/) (WIP)
+#### [Moonlight Meadows](/projects/Moonlight-Meadows/) (WIP)
 
 ---
 
-## [Battle Bond](/projects/Battle-Bond/)
+#### [Cosmic Cargo](/projects/Cosmic-Cargo/) (WIP)
 
 ---
 
-## [LEFT 4 B4IT](/projects/LEFT-4-B4IT/)
+#### [Battle Bond](/projects/Battle-Bond/)
 
 ---
 
-## [Zombie Clicker](/projects/Zombie-Clicker/)
+#### [LEFT 4 B4IT](/projects/LEFT-4-B4IT/)
+
+---
+
+#### [Zombie Clicker](/projects/Zombie-Clicker/)
