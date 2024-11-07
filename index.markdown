@@ -5,7 +5,6 @@
 layout: home
 ---
 
-# My Projects
 
 ## [Moonlight Meadows](/projects/Moonlight-Meadows/) (WIP)
 

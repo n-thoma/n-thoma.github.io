@@ -14,10 +14,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-header_pages:
-  - "/about/"
-
-
 # Exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
