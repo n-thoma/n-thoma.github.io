@@ -11,7 +11,15 @@ title: My Projects
 &nbsp;
 
 <p align="center">
-  <img src="/assets/idk.jpg"/>
+  <img src="/assets/Moonlight_Meadows_Cover.png" width="560"/>
+</p>
+
+&nbsp;
+
+<p style="text-align: center;">
+In Moonlight Meadows (A work-in-progress title), you play as a young witch whose forest home is being overtaken by a 
+dark, creeping corruption. Guided by the moon's light, you must harness your magical powers to restore life to the 
+land. Wielding spells and planting enchanted flora, you'll cleanse corruption zones, and heal corrupted plants.
 </p>
 
 &nbsp;
@@ -50,7 +58,11 @@ ultimate cosmic courier in a galaxy teeming with risks and rewards!
 &nbsp;
 
 <p style="text-align: center;">
-2 Players control the same tank, where one controls the body and the other controls the turret. The goal is to kill all the enemies in the arena to progress to the next arena. The bullets that you shoot from the tank can bounce off walls. There is the possibility where you can shoot, and it bounces back and hurts you.
+Battle Bond is a cooperative, fast-paced tank shooter where two players team up to control a single tank in intense 
+arena battles. One player commands the tank's movement, dodging obstacles and positioning the tank strategically, 
+while the other operates the turret, aiming and firing shots to eliminate waves of enemies. Every bullet you fire can 
+ricochet off walls, turning the arena into a chaotic battleground. But beware—the same ricochet that could take out an 
+enemy might also come back and hit you, adding a thrilling layer of strategy and risk to every shot.
 </p>
 
 &nbsp;
@@ -62,7 +74,17 @@ ultimate cosmic courier in a galaxy teeming with risks and rewards!
 &nbsp;
 
 <p align="center">
-  <img src="/assets/idk.jpg"/>
+  <img src="/assets/LEFT_4_B4IT_Cover.png" width="560"/>
+</p>
+
+&nbsp;
+
+<p style="text-align: center;">
+LEFT 4 B4IT is a survival adventure where you play as an anglerfish navigating the dark, eerie depths of the ocean, 
+fighting off waves of zombie fish that lurk in the shadows. Each level brings you deeper into the abyss. with waters 
+growing darker and dangerous. Between levels, you'll visit a pirate octoupus trader aboard a sunken pirate ship, where 
+you can use collected resources to buy essential buffs and upgrades to prepare for the next round of relentless 
+enemies.
 </p>
 
 &nbsp;
@@ -74,7 +96,16 @@ ultimate cosmic courier in a galaxy teeming with risks and rewards!
 &nbsp;
 
 <p align="center">
-  <img src="/assets/idk.jpg"/>
+  <img src="/assets/Zombie_Clicker_Cover.png" width="560" style="border: 2px solid black;"/>
+</p>
+
+&nbsp;
+
+<p style="text-align: center;">
+Zombie Clicker is a action-packed game where players must survive relentless zombies. Using simple controls, you'll 
+move your character around the screen to dodge incoming zombies who chase you down. To defend yourself, click directly 
+on each zombies to kill it before it gets too close and eats your character. As the game progresses, zombies increase 
+in speed, challenging your reflexes and precision.
 </p>
 
 &nbsp;
