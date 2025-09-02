@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "https://n-thoma.github.io/"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -224,7 +224,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-remote_theme: chipaum/jekyll-theme-chirpy
-plugins:
-  - jekyll-remote-theme
