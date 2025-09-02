@@ -224,3 +224,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+remote_theme: chipaum/jekyll-theme-chirpy
+plugins:
+  - jekyll-remote-theme
