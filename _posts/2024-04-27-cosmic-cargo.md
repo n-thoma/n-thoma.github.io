@@ -73,7 +73,7 @@ I played a key role in both the technical and creative aspects of Cosmic Cargo. 
 ---
 
 ## Results / Outcome
-Cosmic Cargo ended up being a really solid sophomore year game. People loved playing it, and we were proud of how it turned out, especially considering that in the first semester, with no designers, it was more of a tech demo than a full game. After the second semester, the addition of designers helped us polish it into a proper game. ~~While it’s not on Steam yet, we’re working toward that.~~ It is now on Steam! In class, we earned a passing grade with kudos from professors, who were impressed by the game’s performance. Apparently, we'd even broken their record for the number of particles rendered simultaneously (in the millions!) while maintaining a stable framerate.
+Cosmic Cargo ended up being a really solid sophomore year game. People loved playing it, and we were proud of how it turned out, especially considering that in the first semester, with no designers, it was more of a tech demo than a full game. After the second semester, the addition of designers helped us polish it into a proper game. ~~While it’s not on Steam yet, we’re working toward that.~~ (**EDIT:** It is now on Steam!) In class, we earned a passing grade with kudos from professors, who were impressed by the game’s performance. Apparently, we'd even broken their record for the number of particles rendered simultaneously (in the millions!) while maintaining a stable framerate.
 
 ---
 
