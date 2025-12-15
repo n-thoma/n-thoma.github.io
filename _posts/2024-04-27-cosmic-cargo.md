@@ -4,7 +4,25 @@ description: A sophomore-year project combining custom engine programming and fu
 author: Nathaniel Thoma
 date: 2024-04-27 00:34:00 +0800
 categories: [School Projects]
-tags: [C++, Custom Engine, OpenGL, Programming, Video Game]
+tags: [C++, Custom Engine, OpenGL, Programming, Video Game, TortoiseSVN]
+carousels:
+  - images: 
+    - image: /assets/img/cosmic-cargo-slider/img8.png
+      caption: Title screen with cool black hole VFX
+    - image: /assets/img/cosmic-cargo-slider/img1.png
+      caption: Test scene where I was working on sprite animation
+    - image: /assets/img/cosmic-cargo-slider/img7.png
+      caption: Death screen with some cool VFX I worked on
+    - image: /assets/img/cosmic-cargo-slider/img2.png
+      caption: ImGui window interacting with my post processor in real-time
+    - image: /assets/img/cosmic-cargo-slider/img6.png
+      caption: Level select screen I implemented
+    - image: /assets/img/cosmic-cargo-slider/img3.png
+      caption: Broke my post processor
+    - image: /assets/img/cosmic-cargo-slider/img4.png
+      caption: Tutorial level
+    - image: /assets/img/cosmic-cargo-slider/img5.png
+      caption: Level complete scene
 ---
 
 <iframe src="https://store.steampowered.com/widget/4056230/" frameborder="0" width="646" height="190"></iframe>
@@ -38,7 +56,7 @@ In the second semester, the process stayed largely the same, but we expanded the
 
 ![Desktop View](assets/img/cosmic-cargo-team.jpg)
 
-[Sebastian](https://www.linkedin.com/in/sebastian-o-brian-81878b271/), [Lucas](https://www.linkedin.com/in/lucas-nakashita-650282171/), Cole, [Kevin](https://www.linkedin.com/in/kevinmasson/), Me, [Max](https://www.linkedin.com/in/max-ortman-b5805a194/), [Alex](https://www.linkedin.com/in/alexander-falkowski-11360078), [Michael](https://www.tk1t.gg/)
+[Sebastian](https://www.linkedin.com/in/sebastian-o-brian-81878b271/), [Lucas](https://www.linkedin.com/in/lucas-nakashita-650282171/), Cole, [Kevin](https://www.linkedin.com/in/kevinmasson/), [Me](https://www.linkedin.com/in/nthoma/), [Max](https://www.linkedin.com/in/max-ortman-b5805a194/), [Alex](https://www.linkedin.com/in/alexander-falkowski-11360078), [Michael](https://www.tk1t.gg/)
 
 ---
 
@@ -67,3 +85,4 @@ Cosmic Cargo was my first major C++ project and my first time really diving into
 
 ## Media
 
+{% include carousel.html height="50" unit="%" duration="9999" number="1" %}
