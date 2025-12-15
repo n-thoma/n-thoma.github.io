@@ -4,7 +4,7 @@ description: A top-down, co-op tank game where teamwork is key, featuring custom
 author: Nathaniel Thoma
 date: 2023-08-2 00:34:00 +0800
 categories: [School Projects]
-tags: [C, Programming, Video Game]
+tags: [C, Programming, Video Game, GitHub]
 ---
 
 {% include embed/youtube.html id='KO1uKE100NI' %}
