@@ -14,7 +14,7 @@ carousels:
     - image: /assets/img/battle-bond-slider/img3.png
       caption:
     - image: /assets/img/battle-bond-slider/img4.png
-      caption: My mom and uncle playing (xbox controller support too)
+      caption: Xbox controller support
     - image: /assets/img/battle-bond-slider/img5.png
       caption:
     - image: /assets/img/battle-bond-slider/img6.png
