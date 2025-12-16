@@ -5,6 +5,20 @@ author: Nathaniel Thoma
 date: 2023-08-2 00:34:00 +0800
 categories: [School Projects]
 tags: [C, Programming, Video Game, GitHub]
+carousels:
+  - images: 
+    - image: /assets/img/battle-bond-slider/img1.png
+      caption: Battle Bond title screen
+    - image: /assets/img/battle-bond-slider/img2.png
+      caption: The professors told me I didn't have time to implement a boss fight... meet Po!i-T0nK3RZ
+    - image: /assets/img/battle-bond-slider/img3.png
+      caption:
+    - image: /assets/img/battle-bond-slider/img4.png
+      caption: My mom and uncle playing (xbox controller support too)
+    - image: /assets/img/battle-bond-slider/img5.png
+      caption:
+    - image: /assets/img/battle-bond-slider/img6.png
+      caption:
 ---
 
 {% include embed/youtube.html id='KO1uKE100NI' %}
@@ -57,3 +71,4 @@ Battle Bond taught me a lot about teamwork and project management, especially in
 
 ## Media
 
+{% include carousel.html height="50" unit="%" duration="9999" number="1" %}
