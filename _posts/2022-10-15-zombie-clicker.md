@@ -5,6 +5,14 @@ author: Nathaniel Thoma
 date: 2022-10-15 00:34:00 +0800
 categories: [School Projects]
 tags: [C, Programming, Video Game]
+carousels:
+  - images: 
+    - image: /assets/img/zombie-clicker-slider/img1.png
+      caption: Zombie coming towards player
+    - image: /assets/img/zombie-clicker-slider/img2.png
+      caption: Near impossible after 40 zombies
+    - image: /assets/img/zombie-clicker-slider/img3.png
+      caption: This is how we rendered things before we learned about graphics libraries
 ---
 
 ![Desktop View](assets/img/zombie-clicker.png){: width="1080" height="720" .w-50}
@@ -55,3 +63,4 @@ Zombie Clicker taught me the fundamentals of game programming, including charact
 
 ## Media
 
+{% include carousel.html height="75" unit="%" duration="9999" number="1" %}
