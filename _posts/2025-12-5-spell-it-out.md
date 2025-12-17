@@ -5,6 +5,20 @@ author: Nathaniel Thoma
 date: 2025-12-06 00:34:00 +0800
 categories: [School Projects]
 tags: [C#, Unity, Video Game, Programming, GitHub]
+carousels:
+  - images: 
+    - image: /assets/img/spell-it-out-slider/img1.png
+      caption: Randomly generated dungeon
+    - image: /assets/img/spell-it-out-slider/img2.png
+      caption:
+    - image: /assets/img/spell-it-out-slider/img3.png
+      caption: Messing around and spawned 100 functional rooms
+    - image: /assets/img/spell-it-out-slider/img4.png
+      caption:
+    - image: /assets/img/spell-it-out-slider/img5.png
+      caption: My first time programming in C#
+    - image: /assets/img/spell-it-out-slider/img6.png
+      caption: Cardboard to hide the dev kit
 ---
 
 <iframe frameborder="0" src="https://itch.io/embed/4121196?dark=true" width="552" height="167"><a href="https://hyeonjoon-nam.itch.io/spell-it-out">Spell It Out by Hyeonjoon Nam, Rundee, Gringo Loco Jr.</a></iframe>
@@ -23,16 +37,20 @@ Spell it Out (WIP) was developed as a school project with the primary goal of le
 
 ---
 
-![Desktop View](assets/img/unity6.png){: width="150" height="207" .w-50 .right}
 ## Tools & Technologies
 - Language(s): C#
 - Frameworks / Engines: Unity 6
 - Other tools: Git, GitHub
 
 ---
-
+![Desktop View](assets/img/joycon-test.png){: width="230" height="390" .w-50 .left}
 ## Process / Development
 Spell it Out (WIP) was developed by a small team of four programmers using a relaxed but effective collaboration process. Most communication happened through Discord, with weekly in-person meetings every Friday to review progress, discuss challenges, and set goals for the following week. Tasks were self-assigned based on strengths and interests, allowing each team member to work independently while staying aligned on the overall vision. Despite the informal structure, everyone consistently met their goals, resulting in steady progress and a strong team collaboration experience.
+
+
+[Me](https://www.linkedin.com/in/nthoma/), [Sam](https://www.linkedin.com/in/sam-friedman-4a964133b)
+
+*Not in Photo*: [Haneul (Sky)](https://www.linkedin.com/in/haneul-lee-rundee), [Hyeonjoon](https://www.linkedin.com/in/hyeonjoon-nam)
 
 ---
 
@@ -64,3 +82,4 @@ Spell it Out (WIP) helped me build a strong foundation in Unity and C#, while gi
 
 ## Media
 
+{% include carousel.html height="56" unit="%" duration="9999" number="1" %}
