@@ -1,7 +1,7 @@
 ---
 title: Spell It Out (WIP)
 description: A Unity-powered dungeon crawler where you defeat skeletons by literally drawing spells with your mouse using gesture-based magic.
-author: Nathaniel Thoma
+author:
 date: 2025-12-06 00:34:00 +0800
 categories: [School Projects]
 tags: [C Sharp, Unity, Video Game, Programming, GitHub]

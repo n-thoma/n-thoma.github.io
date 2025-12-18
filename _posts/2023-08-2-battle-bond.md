@@ -1,7 +1,7 @@
 ---
 title: Battle Bond
 description: A top-down, co-op tank game where teamwork is key, featuring custom pixel art and challenging enemies.
-author: Nathaniel Thoma
+author:
 date: 2023-08-2 00:34:00 +0800
 categories: [School Projects]
 tags: [C, Programming, Video Game, GitHub]

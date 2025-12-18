@@ -1,7 +1,7 @@
 ---
 title: Cosmic Cargo
 description: A sophomore-year project combining custom engine programming and fun 2D gameplay.
-author: Nathaniel Thoma
+author:
 date: 2024-04-27 00:34:00 +0800
 categories: [School Projects]
 tags: [CPP, Custom Engine, OpenGL, Programming, Video Game, TortoiseSVN]

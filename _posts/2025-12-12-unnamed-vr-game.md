@@ -1,7 +1,7 @@
 ---
 title: Unnamed VR Game (WIP)
 description:
-author: Nathaniel Thoma
+author:
 date: 2025-12-13 00:34:00 +0800
 categories: [School Projects]
 tags: [CPP, Unreal Engine 5, Video Game, Programming, GitHub]

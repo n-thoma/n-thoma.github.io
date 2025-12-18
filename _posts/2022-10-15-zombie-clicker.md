@@ -1,7 +1,7 @@
 ---
 title: Zombie Clicker
 description: A fast-paced reflex game where you move your character and click on increasingly speedy zombies to survive.
-author: Nathaniel Thoma
+author:
 date: 2022-10-15 00:34:00 +0800
 categories: [School Projects]
 tags: [C, Programming, Video Game]
