@@ -4,7 +4,7 @@ description: A Unity-powered dungeon crawler where you defeat skeletons by liter
 author: Nathaniel Thoma
 date: 2025-12-06 00:34:00 +0800
 categories: [School Projects]
-tags: [C#, Unity, Video Game, Programming, GitHub]
+tags: [C Sharp, Unity, Video Game, Programming, GitHub]
 carousels:
   - images: 
     - image: /assets/img/spell-it-out-slider/img1.png

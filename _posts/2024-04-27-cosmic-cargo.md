@@ -4,7 +4,7 @@ description: A sophomore-year project combining custom engine programming and fu
 author: Nathaniel Thoma
 date: 2024-04-27 00:34:00 +0800
 categories: [School Projects]
-tags: [C++, Custom Engine, OpenGL, Programming, Video Game, TortoiseSVN]
+tags: [CPP, Custom Engine, OpenGL, Programming, Video Game, TortoiseSVN]
 carousels:
   - images: 
     - image: /assets/img/cosmic-cargo-slider/img8.png
