@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Project — Nathaniel Thoma</title>
+<meta name="description" content="Project write-up by Nathaniel Thoma.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="hud">
+  <a class="hud-item hud-back" href="index.html">&larr; all projects</a>
+</div>
+
+<main class="project-page" id="project-page">
+  <!-- Content injected by project.js -->
+  <p class="loading-state">Loading project…</p>
+</main>
+
+<footer class="site-footer">
+  <p>Nathaniel Thoma · built by hand, deployed on GitHub Pages</p>
+  <nav class="footer-links">
+    <a href="https://github.com/n-thoma" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/nthoma" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="javascript:location.href = 'mailto:' + ['nthoma3851','gmail.com'].join('@')">Email</a>
+  </nav>
+</footer>
+
+<!-- Lightbox for the media gallery -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close image">&times;</button>
+  <img id="lightbox-img" src="" alt="">
+  <p class="lightbox-caption" id="lightbox-caption"></p>
+</div>
+
+<script src="script.js"></script>
+<script src="project-details.js"></script>
+<script src="project.js"></script>
+</body>
+</html>
