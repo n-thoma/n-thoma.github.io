@@ -1,4 +1,75 @@
----
-layout: home
-# Index page
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nathaniel Thoma — Engine &amp; Gameplay Programmer</title>
+<meta name="description" content="Portfolio of Nathaniel Thoma — games and software, built from the engine up.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HUD strip -->
+<div class="hud" id="hud">
+  <span class="hud-item">BUILD <span id="hud-build"></span></span>
+  <span class="hud-sep">·</span>
+  <span class="hud-item">PROJECTS <span id="hud-count"></span></span>
+  <span class="hud-sep">·</span>
+  <span class="hud-item">ENGINES UNITY / UE5 / CUSTOM_C++</span>
+  <span class="hud-sep">·</span>
+  <span class="hud-item hud-status">STATUS <span class="hud-blink">●</span> ACTIVELY BUILDING</span>
+</div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <h1 class="hero-name">NATHANIEL THOMA<span class="cursor">_</span></h1>
+    <p class="hero-role">engine &amp; gameplay programmer</p>
+    <p class="hero-bio">
+      I'm a DigiPen Institute of Technology graduate who just loves learning! Most of that curiosity ends up going 
+      into making video games, from custom engines to gesture-based magic systems. Take a look around and see what 
+      I've been building.
+    </p>
+    <nav class="hero-links" aria-label="social links">
+      <a href="https://github.com/n-thoma" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/nthoma" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://twitter.com/nthoma3851" target="_blank" rel="noopener">Twitter</a>
+      <a href="javascript:location.href = 'mailto:' + ['nthoma3851','gmail.com'].join('@')">Email</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="filter-bar" role="tablist" aria-label="filter projects">
+    <button class="filter-pill is-active" data-filter="all" role="tab" aria-selected="true">--all</button>
+    <button class="filter-pill" data-filter="game" role="tab" aria-selected="false">--games</button>
+    <button class="filter-pill" data-filter="software" role="tab" aria-selected="false">--software</button>
+  </div>
+
+  <section class="grid" id="project-grid" aria-live="polite">
+    <!-- Cards injected by script.js -->
+  </section>
+
+  <p class="empty-state" id="empty-state" hidden>
+    no results for this filter yet — check back soon.
+  </p>
+</main>
+
+<footer class="site-footer">
+  <p>Nathaniel Thoma · built by hand, deployed on GitHub Pages</p>
+  <nav class="footer-links">
+    <a href="https://github.com/n-thoma" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/nthoma" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="javascript:location.href = 'mailto:' + ['nthoma3851','gmail.com'].join('@')">Email</a>
+  </nav>
+</footer>
+
+<script src="project-details.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

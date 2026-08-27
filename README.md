@@ -1,43 +1,70 @@
-# Chirpy Starter
+# n-thoma.github.io
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Source for my portfolio site. Plain HTML/CSS/JS, no build step, no Jekyll.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## Adding a project
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+Open `script.js` and add an entry to the `PROJECTS` array at the top of the file.
+Each project needs a title, blurb, date, category (`"game"` or `"software"`),
+status (`"shipped"` or `"wip"`), a list of tags, an image path, and any links.
+Comments in the file walk through each field. There's a commented-out template
+at the bottom of the list for the next software project.
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+## Adding a screenshot
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+Drop an image (jpg/png, ~1280x800 works well) into `assets/img/projects/`,
+named to match the `image` path you set for that project, e.g.:
+
+```
+assets/img/projects/spell-it-out.jpg
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+Until an image exists at that path, the card shows a placeholder with the
+project's initial — nothing breaks if you add the project before the image.
 
-## Usage
+## Adding a full write-up (project detail page)
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+Every project can optionally get its own page — like a mini dev blog post,
+with an overview, a video/Steam embed, sections you write yourself, and a
+media gallery.
 
-## Contributing
+1. Open `project-details.js` and add an entry keyed by the project's `slug`
+   (the same slug used in `script.js`). Comments in the file explain each
+   field — sections are just a heading + a chunk of HTML, so you can write
+   however much or little you want.
+2. Drop gallery images in `assets/img/projects/<slug>/gallery/` and list
+   them under `media` in that same entry.
+3. That's it — the card on the homepage automatically grows a "Read more"
+   link and a clickable thumbnail once an entry exists for that slug, and
+   the page itself lives at `project.html?slug=your-slug`.
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+If a project doesn't have an entry in `project-details.js` yet, its card
+just behaves like before (no link) — nothing to break by adding write-ups
+gradually, one project at a time.
 
-## License
+## Local preview
 
-This work is published under [MIT][mit] License.
+No build step needed, but browsers block some things (like `fetch`) over
+`file://`, so serve it locally instead of double-clicking `index.html`:
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+```
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
+
+## Deploying
+
+This repo *is* the site — GitHub Pages serves `index.html` directly from the
+root of the `main` branch. Push to `main` and it deploys automatically:
+
+```
+git add .
+git commit -m "Update portfolio"
+git push
+```
+
+Since there's no Jekyll processing, this repo doesn't need `_config.yml`,
+`_posts/`, or a `Gemfile` — you can remove those once you're happy with the
+new site (keep a backup branch first if you want an easy way back to the
+old Chirpy-based version).
