@@ -196,8 +196,8 @@ const PROJECT_DETAILS = {
     ],
     carousels: {
       "team-photos": [
-        { src: "assets/img/projects/luminary/team1.jpg", caption: "the Luminary team" },
-        { src: "assets/img/projects/luminary/team2.jpg", caption: "the Luminary team" },
+        { src: "assets/img/projects/luminary/team1.JPG", caption: "the Luminary team" },
+        { src: "assets/img/projects/luminary/team2.JPG", caption: "the Luminary team" },
         { src: "assets/img/projects/luminary/team3.jpg", caption: "the Luminary team" },
       ]
     },
