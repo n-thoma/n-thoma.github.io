@@ -31,13 +31,25 @@ const PROJECTS = [
     title: "Bro's Adventure",
     slug: "bros-adventure",
     blurb: "a Super Mario World rom hack where you play as the infamous Hammer Brother",
-    date: "2025-12-05",
+    date: "2026-08-28",
     category: "game",
     statuses: ["wip"],
     tags: ["Programming", "ASM"],
     image: "assets/img/projects/bros-adventure/title-card.png",
     links: {
       demo: "https://www.smwcentral.net/?p=section&a=details&id=33806"
+    }
+  },
+  {
+    title: "VANT",
+    slug: "vant",
+    blurb: "a 1-vs-4 asymmetric game where a VR player stomps around as a mech armed with a giant hammer, while up to four PC players try to bring it down with guns first",
+    date: "2026-04-24",
+    category: "game",
+    statuses: ["private"],
+    tags: ["Unreal Engine 5", "Blueprints", "C++", "PerForce", "Programming"],
+    image: "assets/img/projects/vant/title-card.png",
+    links: {
     }
   },
   {

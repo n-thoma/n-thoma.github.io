@@ -28,6 +28,125 @@
 const PROJECT_DETAILS = {
 
   /*
+    Bro's Adventure
+  */
+
+  "bros-adventure": {
+    tagline: "",
+    sections: [
+      {
+        heading: "Overview",
+        body: `<p></p>`
+      },
+      {
+        heading: "Goals & Motivation",
+        body: `<p></p>`
+      },
+      {
+        heading: "Tools & Technologies",
+        body: `<ul>
+          <li></li>
+        </ul>`
+      },
+      {
+        heading: "Process & Development",
+        body: `<p></p>`
+      },
+      {
+        heading: "Features",
+        body: `<ul>
+          <li></li>
+        </ul>`
+      },
+      {
+        heading: "My Contributions",
+        body: `<p></p>`
+      },
+      {
+        heading: "Results & Outcome",
+        body: `</p>`
+      },
+      {
+        heading: "Lessons Learned",
+        body: `</p>`
+      }
+    ],
+    media: [
+    ]
+  },
+
+  /*
+    VANT
+  */
+
+  "vant": {
+    tagline: "a 1-vs-4 asymmetric game where a VR player stomps around as a mech armed with a giant hammer, while up to four PC players try to bring it down with guns first",
+    sections: [
+      {
+        heading: "Overview",
+        body: `<p></p>`
+      },
+      {
+        heading: "Goals & Motivation",
+        body: `<p></p>`
+      },
+      {
+        heading: "Tools & Technologies",
+        body: `<ul>
+          <li></li>
+        </ul>`
+      },
+      {
+        heading: "Process & Development",
+        body: `<p></p>`
+      },
+      {
+        heading: "Features",
+        body: `<ul>
+          <li></li>
+        </ul>`
+      },
+      {
+        heading: "My Contributions",
+        body: `<p></p>`
+      },
+      {
+        heading: "Results & Outcome",
+        body: `</p>`
+      },
+      {
+        heading: "Lessons Learned",
+        body: `</p>`
+      }
+    ],
+    media: [
+      { src: "assets/img/projects/vant/gallery/01.png", caption: "the arena" },
+      { src: "assets/img/projects/vant/gallery/02.png", caption: "the final mech" },
+      { src: "assets/img/projects/vant/gallery/03.png", caption: "the mech cockpit" },
+      { src: "assets/img/projects/vant/gallery/04.png", caption: "cel-shaded graphics" },
+      { src: "assets/img/projects/vant/gallery/05.png", caption: "custom made VFX" },
+      { src: "assets/img/projects/vant/gallery/06.png", caption: "hammer concept art" },
+      { src: "assets/img/projects/vant/gallery/07.png", caption: "mech concept art" },
+      { src: "assets/img/projects/vant/gallery/08.png", caption: "mech concept art" },
+      { src: "assets/img/projects/vant/gallery/09.png", caption: "mech rendering in Maya" },
+    ],
+    credits: [
+      { name: "Anagha", url: "https://www.linkedin.com/in/anagha-polapragada-14147b288" },
+      { name: "Ty", url: "" },
+      { name: "Riley", url: "" },
+      { name: "Michael", url: "https://www.linkedin.com/in/michael-howard562" },
+      { name: "Haneul (Sky)", url: "https://www.linkedin.com/in/haneul-lee-rundee" },
+      { name: "Chris", url: "https://www.linkedin.com/in/mhchriskim" },
+      { name: "Nathan", url: "https://www.linkedin.com/in/nathanleong123" },
+      { name: "Songyang", url: "https://www.linkedin.com/in/vomunar" },
+      { name: "Zan", url: "https://www.linkedin.com/in/zanmoffat" },
+      { name: "Adam", url: "https://www.linkedin.com/in/adam-lonstein" },
+      { name: "Kai", url: "https://www.linkedin.com/in/phuajiankai" },
+      { name: "Doyoon", url: "https://www.linkedin.com/in/doyoon" },
+    ]
+  },
+
+  /*
     Spell It Out
   */
 
