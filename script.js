@@ -28,6 +28,19 @@
 
 const PROJECTS = [
   {
+    title: "Bro's Adventure",
+    slug: "bros-adventure",
+    blurb: "a Super Mario World rom hack where you play as the infamous Hammer Brother",
+    date: "2025-12-05",
+    category: "game",
+    statuses: ["wip"],
+    tags: ["Programming", "ASM"],
+    image: "assets/img/projects/bros-adventure/title-card.png",
+    links: {
+      demo: "https://www.smwcentral.net/?p=section&a=details&id=33806"
+    }
+  },
+  {
     title: "Spell It Out",
     slug: "spell-it-out",
     blurb: "a Unity-powered dungeon crawler where you defeat skeletons by literally drawing spells with your mouse using gesture-based magic",
@@ -55,7 +68,7 @@ const PROJECTS = [
   {
     title: "Cosmic Cargo",
     slug: "cosmic-cargo",
-    blurb: "a sophomore-year team project: a custom C++/OpenGL engine built from scratch, wrapped around a 2D space-cargo game.",
+    blurb: "a sophomore-year team project: a custom C++/OpenGL engine built from scratch, wrapped around a 2D space-cargo game",
     date: "2024-04-26",
     category: "game",
     statuses: ["shipped"],
