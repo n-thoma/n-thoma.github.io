@@ -30,7 +30,7 @@ const PROJECTS = [
   {
     title: "Bro's Adventure",
     slug: "bros-adventure",
-    blurb: "a Super Mario World rom hack where you play as the infamous Hammer Brother",
+    blurb: "a Super Mario World ROM hack where a Hammer Bro chases Bowser's promise of becoming his new right-hand man by capturing Peach before Mario can stop him",
     date: "2026-08-28",
     category: "game",
     statuses: ["wip"],

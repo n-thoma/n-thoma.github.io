@@ -32,47 +32,107 @@ const PROJECT_DETAILS = {
   */
 
   "bros-adventure": {
-    tagline: "",
+    tagline: "a Super Mario World ROM hack where a Hammer Bro chases Bowser's promise of becoming his new right-hand man by capturing Peach before Mario can stop him",
+    video: {
+      embed: "https://www.youtube.com/embed/tnsVKWyZ21I"
+    },
     sections: [
       {
         heading: "Overview",
-        body: `<p></p>`
+        body: `<p>Bros Adventure is a Super Mario World ROM hack starring an unlikely
+        hero: a Hammer Bro. Watching a broadcast at home, he catches Bowser
+        announcing that whoever captures Princess Peach will become his new
+        right-hand man. Hammer Bro takes the bait
+        and sets off through 6 sub-maps and one overworld map, roughly 27
+        levels in total, fighting his way through enemies, several of the
+        Koopalings, and eventually Kamek himself. The final world drops him
+        in the Mushroom Kingdom, where the last boss isn't Bowser at all... but instead Mario. Along the way he picks up a boomerang, a fire flower,
+        and a hammer power-up to fight with.</p>`
       },
       {
         heading: "Goals & Motivation",
-        body: `<p></p>`
+        body: `<p>I've loved Super Mario World for a long time, and after seeing
+        other hackers on SMW Central build incredible custom worlds and
+        levels, I wanted to learn how to do it myself. This hack was as much
+        about picking up ROM hacking and ASM as it was about making a game
+        I'd actually want to play.</p>`
       },
       {
         heading: "Tools & Technologies",
         body: `<ul>
-          <li></li>
-        </ul>`
+          <li><b>Language(s):</b> ASM</li>
+          <li><b>Frameworks/Engine:</b> Lunar Magic</li>
+          <li><b>Other Tools:</b> Lunar Expand, AddmusicK, GPS, PIXI, Asar, UberASMTool, and more</li>
+          <li><b>Resources:</b> <a href="https://www.smwcentral.net/">SMW Central</a></li>
+        </ul>
+        
+        <div data-carousel="tool-photos"></div>`
       },
       {
         heading: "Process & Development",
-        body: `<p></p>`
+        body: `<p>I started working on Bros Adventure in 2023, but college kept
+        it slow-going for a long stretch so it's been more of a long-running
+        side project than a steady two-semester sprint. I'm still actively
+        working on it, with a full release planned for 2026.</p>
+
+        <p>The biggest hurdle early on was just learning ASM from scratch,
+        along with figuring out how to tweak existing sprites and adapt
+        custom sprites other hackers had written. On top of that, the SNES
+        itself took some getting used to because I had to learn things like how palettes work
+        and how they're shared across tiles took a while to click.</p>`
       },
       {
         heading: "Features",
         body: `<ul>
-          <li></li>
+          <li><b>27 levels</b> spread across 6 sub-maps plus one overworld map</li>
+          <li><b>Three power-ups:</b> boomerang, fire flower, and hammer</li>
+          <li>Boss fights against multiple <b>Koopalings</b>, <b>Kamek</b>, and a final showdown with <b>Mario</b></li>
+          <li>Custom level design, world layout, and story built from the ground up</li>
         </ul>`
       },
       {
         heading: "My Contributions",
-        body: `<p></p>`
+        body: `<p>This was a solo project meaning I handled all of the level design,
+        world building, and story myself. I pulled in graphics, blocks, and
+        music made by other creators in the SMW Central community, but also
+        wrote custom ASM and programmed custom sprites of my own where the
+        existing tools and assets didn't cover what I needed.</p>`
       },
       {
         heading: "Results & Outcome",
-        body: `</p>`
+        body: `<p>A demo with 4 playable levels is out now and has been
+        downloaded 1,953 times, with a handful of playthrough videos posted
+        by players. The full release is still in progress with a few bugs need
+        fixing, the credits cutscene isn't built yet, and I still want to
+        add secret levels and bonus areas before it's done.</p>`
       },
       {
         heading: "Lessons Learned",
-        body: `</p>`
+        body: `<p>If I were starting over, I wouldn't make my first ROM hack
+        this ambitious in scope. A smaller hack with just a few levels would
+        have been a much faster way to learn the tools and get something
+        finished, rather than committing to a 27-level project as my first
+        real dive into ASM and SNES hacking.</p>`
       }
     ],
     media: [
-    ]
+      { src: "assets/img/projects/bros-adventure/gallery/01.png", caption: "sunset level" },
+      { src: "assets/img/projects/bros-adventure/gallery/02.png", caption: "fire running level" },
+      { src: "assets/img/projects/bros-adventure/gallery/03.png", caption: "Chuck's castle" },
+      { src: "assets/img/projects/bros-adventure/gallery/04.png", caption: "boss Chuck" },
+      { src: "assets/img/projects/bros-adventure/gallery/05.png", caption: "dark airship level" },
+      { src: "assets/img/projects/bros-adventure/gallery/06.png", caption: "Lemmy Koopa boss fight" },
+      { src: "assets/img/projects/bros-adventure/gallery/07.png", caption: "outside Peach's castle" },
+      { src: "assets/img/projects/bros-adventure/gallery/08.png", caption: "fighting Mario" },
+    ],
+    carousels: {
+      "tool-photos": [
+        { src: "assets/img/projects/bros-adventure/tool01.png", caption: "editor view of the final level" },
+        { src: "assets/img/projects/bros-adventure/tool02.png", caption: "sneak peek into the map 16 data" },
+        { src: "assets/img/projects/bros-adventure/tool03.png", caption: "editor view of the first level" },
+        { src: "assets/img/projects/bros-adventure/tool04.png", caption: "the world/sub maps" },
+      ]
+    },
   },
 
   /*
@@ -93,7 +153,9 @@ const PROJECT_DETAILS = {
       {
         heading: "Tools & Technologies",
         body: `<ul>
-          <li></li>
+          <li><b>Language(s):</b> C++, UE Blueprints</li>
+          <li><b>Frameworks/Engine:</b> Unreal Engine 5.6</li>
+          <li><b>Other tools:</b> Perforce, ClickUp</li>
         </ul>`
       },
       {
