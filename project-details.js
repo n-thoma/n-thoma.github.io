@@ -140,15 +140,28 @@ const PROJECT_DETAILS = {
   */
 
   "vant": {
-    tagline: "a 1-vs-4 asymmetric game where a VR player stomps around as a mech armed with a giant hammer, while up to four PC players try to bring it down with guns first",
+    tagline: "A 1-vs-4 asymmetric game where a VR player stomps around as a hammer-wielding mech, while up to four PC players try to bring it down with guns first.",
     sections: [
       {
         heading: "Overview",
-        body: `<p></p>`
+        body: `<p>VANT (VR Advanced Nexus Technology), a sci-fi
+        name for the mech itself is an asymmetric multiplayer game with no
+        story or setting attached, just pure arena combat. One player straps
+        into a VR headset and controls a giant mech armed with a hammer.
+        Up to four other players, playing on PC, are armed with guns and
+        have one job: take the mech down before it crushes them. It was
+        built as our senior capstone project at DigiPen, the same program
+        Cosmic Cargo came out of, with a team of 3 designers and 9
+        programmers. The mech itself was designed and modeled by a separate
+        group of contracted artists outside our team.</p>`
       },
       {
         heading: "Goals & Motivation",
-        body: `<p></p>`
+        body: `<p>My friend Ty and I both really wanted to work on a VR game,
+        and we found a team that needed more programmers for exactly that,
+        a VR-vs-PC concept. It started out as a much smaller idea, a 1v1
+        game with both players on the same screen, but evolved into a full
+        1-vs-4 networked game as the scope grew.</p>`
       },
       {
         heading: "Tools & Technologies",
@@ -160,25 +173,53 @@ const PROJECT_DETAILS = {
       },
       {
         heading: "Process & Development",
-        body: `<p></p>`
+        body: `<p>Development ran two semesters across 8 milestones. The first
+        semester was rough because the team struggled to communicate and didn't
+        work together well, and progress showed it. Going into the second
+        semester, I took on a leadership role alongside my teammate Anagha,
+        and together we put together an actual game plan to get to an MVP.
+        We lost several teammates along the way, though in practice that
+        didn't hurt much, since most of them hadn't been contributing
+        heavily anyway.</p>
+
+        <p>The hardest technical problem was scope since we were effectively 
+        building two games at once: a VR experience and a PC experience 
+        with only a handful of programmers actually dedicated to pushing
+        development forward. That imbalance meant design ambitions
+        occasionally outran what the technical side could keep up with.</p>`
       },
       {
         heading: "Features",
         body: `<ul>
-          <li></li>
+          <li>Full VR mech controls, including hammer-based melee attacks</li>
+          <li>Networked 1-vs-4 asymmetric multiplayer (VR player vs. PC players)</li>
+          <li>Custom cel-shaded rendering and hand-built VFX</li>
+          <li>Mech model and design contracted out to an external art team</li>
         </ul>`
       },
       {
         heading: "My Contributions",
-        body: `<p></p>`
+        body: `<p>In the first semester I was the VFX/graphics person on the
+        team. In the second, my role expanded considerably: I became VR
+        Team Lead, VR programmer, stayed on graphics and VFX, and took on
+        general gameplay programming as well. Ty and I built essentially
+        all of the mech's controls and gameplay logic between the two of
+        us.</p>`
       },
       {
         heading: "Results & Outcome",
-        body: `</p>`
+        body: `<p>There's a playable demo, though it hasn't been released
+        publicly anywhere yet. I'll likely add a download link here once
+        it's ready. There's no trailer or external page for it currently,
+        and it hasn't been showcased anywhere outside the team.</p>`
       },
       {
         heading: "Lessons Learned",
-        body: `</p>`
+        body: `<p>The biggest takeaway was how much a team lives or dies on
+        communication. That was the single biggest obstacle we ran into,
+        and fixing it — forcing the team to actually talk to each other and
+        stay aligned, was what turned the second semester around after a
+        rough first one.</p>`
       }
     ],
     media: [
